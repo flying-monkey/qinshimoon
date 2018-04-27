@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/aboutstyle.css"/>
+    <link rel="stylesheet" href="css/login.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/myjs.js"></script>
+</head>
+<body>
+	<div class="topback" onclick="returnTop();">Top</div>
+	<div class="header">
+	    <div class="header-content">
+	        <div class="logo"></div>
+	        <div class="header-list">
+	            <ul>
+	             	<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="news.html">新闻中心</a>
+						</li>
+						<li>
+							<a href="aboutus.html">关于我们</a>
+						</li>
+	                <li><a href="javascript:void(0)" onclick="logintoggle('login')">登录/注册</a></li>
+	            </ul>
+	        </div><!--end header-content-->
+	    </div>
+	</div>
+	<section id="about">
+		<div class="about">
+			<p>About</p>
+			<h1>关于我们</h1>
+			<div class="clear"></div>
+		</div>
+		<div class="content">
+			<div class="abtcontent-top">
+				
+			</div>
+			<div class="content-text">
+				<p>
+					2005年正式成立的玄机科技，是中国十大优秀原创动画企业之一，如今更已成长为充满活力的全品牌运营娱乐公司。
+					公司以原创动漫影视制作为基础，实现了从原创内容孵化、动漫创作、图书音像、衍生产品、网络游戏、
+					影视摄制的IP全产业链品牌运营能力，以精工细作的“匠心”精神和不断创新的艺术风格，诠释“原创”二字的至高价值。
+				</p>
+				<p>
+					《秦时明月》全品牌运营更拓展到小说、漫画、动画电影、真人影视、手游、页游、舞台剧、周边商品等多个领域。
+					三款手游先后上线均是AppStore免费榜或畅销榜冠军。其中2014年上线的《秦时明月》第一款手游，及2015年上线的
+					《新秦时明月》手游，峰值月流水均突破5000万元。由陆毅、陈妍希、蒋劲夫、孙艺洲主演的《秦时明月》同名电视剧，
+					2015年底登陆湖南卫视。产业链各端的全面开花，让《秦时明月》成为国内备受关注的顶级IP之一。
+					
+				</p>
+				<p>玄机科技还于2016年3月推出了《秦时明月》姐妹篇《天行九歌》。开播一周、点播量就达2000万，击败90%网络剧，成为又一现象级国漫。
+					“玄机出品”造就“史上颜值最高的权谋史诗”。2016年6月，玄机科技还推出被称“最强脑洞封神演义”的《武庚纪》。
+					腾讯视频强势加盟联合出品，又一火爆IP孕势而生。
+				</p>
+				<p>玄机科技还于2016年3月推出了《秦时明月》姐妹篇《天行九歌》。开播一周、点播量就达2000万，击败90%网络剧，成为又一现象级国漫。
+					“玄机出品”造就“史上颜值最高的权谋史诗”。2016年6月，玄机科技还推出被称“最强脑洞封神演义”的《武庚纪》。腾讯视频强势加盟联合出品，
+					又一火爆IP孕势而生。</p>
+				<p>
+					玄机科技以传播中华文明之美为己任，秉承“让深度知识的获得更有趣，让优质内容的传播更便捷”的理念，
+					将中国传统文化的精髓与现代青少年的喜好很好的糅为一体，以精美的作品传递中华传统文化之美。
+				</p>
+			</div>
+				
+			
+		</div>
+		
+	</section>
+	
+		<footer>
+			<div class="footer-content">
+				<div class="footer-top">
+					<p>
+						<a href="">关于我们</a><span>|</span>
+						<a href="">人才招聘</a><span>|</span>
+						<a href="">合作联系</a><span>|</span>
+						<a href="">友情链接</a><span>|</span>
+						<a href="">联系客服</a><span>|</span>
+					</p>
+					<p class="footer-top-p2">
+						《网络文化经营许可证》：浙网文【2013】 0644-074号浙ICP备08101280号-6
+						《增值电信业务经营许可证》编号:浙B2-20100243
+					</p>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-bottom-left">
+						<img src="img/logo1.png"/>
+						<div class="clear"></div>
+					</div>
+					<div class="footer-bottom-right">
+						<p>
+                    		Copyright © StarQ 2014 All Rights Reserved.<br/>
+                    		 杭州玄机科技信息技术有限公司 <br />
+                    		<a target="_blank">浙公网安备 33010802003331号</a>
+                    </p>
+					</div>
+						<div class="clear"></div>
+				</div>
+			</div>
+		</footer>
+		
+			<div id="login">
+			<div class="login-content">
+				<div class="top-content"></div>
+				<div class="main">
+					<div>
+						<div class="top">
+							<div class="close"><input type="button" value="X" onclick="logintoggle('login')" /></div>
+						</div>
+						<div class="username"><i class="i1"></i><input type="text" value="请输入用户名" /></div>
+						<div class="password">
+							<i class="i2"></i>
+							<input type="password" value="请输入密码" />
+							<input type="button" class="loginb" value="登录" />
+						</div>
+					</div>
+					<div class="forget-registration">
+						<p class="p1">
+							<a href="">忘记密码?</a>
+						</p>
+						<p class="p2">
+							<a href="">新用户注册</a>
+						</p>
+					</div>
+					<div class="other">
+						<ul>
+							<li class="qq"></li>
+							<li class="weixin"></li>
+							<li class="weibo"></li>
+						</ul>
+					</div>
+					<p class="login-bottom">
+						你可以选择以上方式登录该网站！
+					</p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

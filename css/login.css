@@ -1,0 +1,189 @@
+body{position: relative;}
+input,button,select,textarea{outline:none; border-style: none;}
+textarea{resize:none;}
+#login{
+    position: absolute;
+    /*border: 1px solid yellow ;*/
+    width: 100%;
+    height: 640px;
+    top: 50px;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.27);
+    z-index: 1100;
+}
+#login .login-content{
+    margin: 0 auto;
+    /*position: relative;*/
+    width: 540px;
+    /*border: 1px solid red;*/
+    /*margin-top: 30px;*/
+}
+#login .main{
+    width: 540px;
+    /*border: 1px solid red;*/
+    margin: 0px auto;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.79);
+    border-radius: 15px;
+    z-index: 1;
+}
+#login .main .top{
+    height: 160px;
+    border-bottom: 1px solid #3b3b3b;
+    /*background-color: rgba(255, 255, 255, 0.41);*/
+    /*position: absolute;*/
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#login .main .top .close{
+    width: 540px;
+    height: 36px;
+}
+#login .main .top .close input{
+    display: block;
+    float: right;
+    width: 56px;
+    height: 36px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#login .main .top .close input:hover{
+	color: #EC8E0C;
+	background: rgba(0,0,0,0.5) ;
+	border: 1px solid #EC8E0C;
+}
+#login .login-content .top-content{
+    height: 190px;
+    width: 470px;
+    position: absolute;
+    /*border: 1px solid darkgreen;*/
+    z-index: 2;
+    margin: 0 auto;
+    top:0px;
+    /*margin-top: -5px;*/
+    background: url("../img/login/top.png")no-repeat center;
+}
+#login .login-content .main .username{
+    width: 518px;
+    height: 50px;
+    /*margin: 0 auto;*/
+    /*border: 1px solid red;*/
+    margin: 20px auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#login .login-content .main .username input {
+    display: block;
+    width: 466px;
+    height: 50px;
+    float: left;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    /*border: 1px solid blue;*/
+    /*margin: 24px auto;*/
+    color: #6b6b6b;
+    font-size: 16px;
+
+}
+#login .login-content .main .password input{
+    display: block;
+    width: 366px;
+    height: 50px;
+    /*border: 1px solid dodgerblue;*/
+    /*margin: 24px auto;*/
+    /*margin-left: 10px;*/
+    float: left;
+    color: #6b6b6b;
+    font-size: 16px;
+}
+#login .login-content .main .password{
+    width: 518px;
+    height: 50px;
+    /*margin: 0 auto;*/
+    /*border: 1px solid blue;*/
+    margin: 20px auto;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#login .login-content .main .password .loginb {
+    display:block;
+    float: left;
+    height: 50px;
+    width: 100px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #6b6b6b;
+    font-size: 18px;
+}
+#login .login-content .main .forget-registration{
+    width:518px ;
+    height: 50px;
+    margin-left: 10px;
+    /*border: 1px solid red;*/
+}
+#login .login-content .main .forget-registration p{
+    line-height: 50px;
+    color: #8e8e8e;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#login .login-content .main .forget-registration .p1{float: left}
+#login .login-content .main .forget-registration .p2{float: right;}
+#login .login-content .main .other{
+    width:518px ;
+    height: 84px;
+    /*border: 1px solid red;*/
+    margin: 20px auto;
+}
+#login .login-content .main .other ul{
+    height: 84px;
+    width: 420px;
+    /*border: 1px solid yellow;*/
+    margin: 0 auto;
+}
+#login .login-content .main .other ul li{
+    width: 84px;
+    height: 84px;
+    float: left;
+    border: 1px solid #3b3b3b;
+    margin: 0 26px;
+    border-radius: 50%;
+
+}
+#login .login-content .main .other ul .qq{
+    background: url("../img/login/qq.png") no-repeat center;
+}
+#login .login-content .main .other ul .weixin{
+    background: url("../img/login/weixin.png") no-repeat center;
+}
+#login .login-content .main .other ul .weibo{
+    background: url("../img/login/weibo.png") no-repeat center;
+}
+#login .login-content .main .login-bottom{
+    display: block;
+    width: 518px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #8b8b8b;
+    line-height:50px ;
+    margin-bottom: 15px;
+}
+#login .login-content .main div i{
+    width: 52px;
+    height: 50px;
+    display: block;
+    float: left;
+}
+#login .login-content .main div .i1{
+    background: url("../img/login/us.png")no-repeat -2px 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#login .login-content .main div .i2{
+    background: url("../img/login/ps.png")no-repeat center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}

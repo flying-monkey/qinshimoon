@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<div id="zhuce" style="display: block;">
+			<div class="zhuce-content">
+				<div class="top-content"></div>
+				<div class="main">
+					<div>
+						<div class="top">
+							<div class="close"><input type="button" value="X" onclick="logintoggle('login')" /></div>
+						</div>
+						
+						
+						<form method="get" action="index.html" onsubmit="return validate();">
+							<div class="username">
+								<i class="i1"></i>
+								<input type="text" name="username" id="username" value="用户名" />
+								<span id="usernameInfo"></span>
+							</div>
+							
+							<div class="password">
+								<i class="i2"></i>								
+								<input type="password" name="password" id="password" value="密码" />
+								<span id="usernameInfo"></span>				
+							</div>
+							
+							<p class="reinput">请再次输入密码！</p>
+							
+							<div class="repassword">
+								<i class="i2"></i>								
+								<input type="password" name="password" id="password" value="确认密码" />
+								<span id="usernameInfo"></span>							
+							</div>
+							
+							<div class="yanzhengma">
+								<i class="i1"></i>
+								<input type="text" name="username" id="username" value="验证码" />
+								<p class="yanzheng-number"></p>
+								<span id="usernameInfo"></span>
+							</div>
+							
+							<div class="clear"></div>
+						</form>
+						
+						
+					</div>
+					<div class="zhucebtn">
+						<input type="submit"  value="返回登录"/ >
+						<input type="submit"  value="注册"/ >
+					</div>
+					<div class="other">
+						<ul>
+							<li class="qq otherway"></li>
+							<li class="weixin otherway"></li>
+							<li class="weibo otherway"></li>
+						</ul>
+					</div>
+					<p class="zhuce-bottom">
+						你可以选择以上方式登录该网站！
+					</p>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>

@@ -1,0 +1,45 @@
+.about{
+	width: 100%;
+	background: #dedede;
+	margin: 0 auto;
+}
+.about p{
+	    font-size: 90px;
+	    font-family: "Arial";
+	   	color: #9E9E9E;
+	    text-transform: uppercase;
+	    padding-top: 43px;
+	    float: left;
+	    padding-left: 130px;
+}
+.about h1{
+	font-size: 44px;
+	color: rgb( 23, 23, 23 );
+	padding-top: 90px;
+	/*padding-left:20px;*/
+	float: left;
+	margin-left: -310px;
+
+}
+
+
+#about .content{
+	width: 80%;
+	/*background: #8e8ede;*/
+	background: rgba(0, 0, 0, 0.5);
+	margin: 35px auto;
+	/*height: 900px;*/
+}
+
+#about .content .abtcontent-top{
+	height: 300px;
+	background: url(../img/bizhi/bz2.jpg)no-repeat center;
+	background-size: 100%;
+}
+.content-text{
+	margin: 15px auto;
+}
+.content-text p{
+	padding: 15px 20px;
+	color: #666;
+}

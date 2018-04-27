@@ -1,0 +1,37 @@
+.tvshow-main{
+	width: auto; 
+	height: 550px;"
+}
+video{
+	width:76%;
+	height:550px;
+	/*background: black;*/ 
+	float: left;
+}
+.tvshow-remark{
+	width: 24%; 
+	height: 550px;
+	/*background: black;*/
+	float: left;
+}
+footer{
+	margin-top: 10px;!important
+}
+
+.tvshow-remark h1{
+	height: 50px;
+	color: white;
+	font-size: 26px;
+	line-height: 50px;
+	text-indent:1em;
+	background: black;
+	border: 1px solid black;
+}
+.tvshow-remark ul li{
+	width: 94%;
+	margin: 0 auto;
+	height: 50px;
+	/*background: palegoldenrod;*/
+	border-bottom: 1px solid black;
+	line-height: 50px;
+}
